@@ -1,0 +1,42 @@
+body{
+background:linear-gradient(green,rgb(89, 155, 36))
+
+}
+.panel-heading{
+    background:linear-gradient(blue,yellow);
+        font-size: xx-large;
+        font-weight: bold;
+        width: fit-content;
+        border: solid;
+        border-radius: 45px;
+        box-shadow: 5px 10px 0px red;
+        margin-bottom:20px;
+}
+
+.panel-heading:hover{
+    background: linear-gradient(green,red);
+    cursor: pointer;
+}
+.fv{
+    font-size:large;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(red,green);
+}
+.sv{
+    font-size:large;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(red,green);
+}
+.output{
+    font-size:large;
+    float: right;
+    width: fit-content;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(red,green);
+}

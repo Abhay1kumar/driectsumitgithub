@@ -1,0 +1,275 @@
+Question 1.
+Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Ans:
+COde:
+<html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <div>
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+   
+   ************************************************************************
+Question 2
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Ans:
+Code
+<html lang="en">
+
+<head>
+    <title>Document Guvi</title>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+</body>
+
+</html>
+
+****************************************************************************************
+Question 3
+Design a contact us form with all fields as required.
+
+Ans;
+code;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Stylesheet.css">
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <fieldset padding="60"><input type="text" name="name" placeholder="Enter Name"></fieldset>
+        <fieldset>
+            <input type="email" name="email" placeholder="Enter Email" >
+        </fieldset>
+        <fieldset>
+            <input type="tel" name="email" placeholder="Enter Phone Number" >
+        </fieldset>
+        <fieldset>
+            <input type="text" name="email" placeholder="Subject" >
+        </fieldset>
+        <fieldset>
+            <input type="text" name="email" placeholder="Type your Massage here...." >
+        </fieldset>
+        <p>
+        <fieldset class="btn">
+         <button type="submit" name="Submit">Submit</button>
+        </fieldset></p>
+    </div>
+
+
+</body>
+
+</html>
+
+******************************************************************************
+Question 4;
+
+Use certain HTML elements to display the following in a HTML page.
+Programming Language
+JavaScript
+Angular
+React
+Vue.js
+Python
+Django Framework
+Flask Framework
+Java
+Spring
+Maven
+Hibernate
+Database
+MySQL
+MongoDB
+Cansandra
+
+Ans
+code
+************CSS*****************
+<style>
+    .body {
+        line-height: 1.9em;
+        font-family: bolder;
+
+    }
+
+    .orderl {
+        list-style-type: lower-alpha;
+        margin-left: 20px;
+    }
+
+    .javascript {
+        margin-left: 20px;
+        list-style-type: lower-alpha;
+    }
+.java{
+    margin-left: 20px;
+        list-style-type: lower-alpha;
+    }
+
+    .python {
+        margin-left: 20px;
+        list-style-type: lower-alpha;
+    }
+</style>
+*********************CSS****************
+
+<body class="body">
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+            <li>JavaScript</li>
+        </ul>
+
+        <ol class="javascript">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ol>
+
+        <ul>
+            <li> Python</li>
+        </ul>
+        <ol class="python">
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+        </ol>
+        <ul>
+            <li>Java</li>
+        </ul>
+        <ol class="java">
+            <li>Spring</li>
+            <li>Maven</li>
+            <li>Hibernate</li>
+        </ol>
+
+        <li>Database</li>
+        <ul>
+            <li>MySQL</li>
+            <li>MangoDB</li>
+            <li>Cansandra</li>
+        </ul>
+
+
+    </ul>
+</body>
+
+******************************************************************
+Question:5
+Create an element that helps you to open the https://google.com in separate new tab.
+
+Ans:
+Code:
+<body>
+    <a href="https://google.com/" target="_blank">Google</a>
+</body>
+
+*******************************************************************
+Question:6
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+
+Ans:
+<h1>Emplyee Type</h1>
+    <div>
+        <input type="radio">
+        <label for="salaried">Salried</label>
+        <input type="radio">
+        <label for="business">business</label>
+
+      </div>
+
+
+Question: 10
+In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+Ans
+Code
+<body>
+    <p><strong>HTML & CSS is awesome</strong></p>
+    
+</body>
+*************************************************************
+
+Question:11
+Create an HTML page, which should contain all types of input elements.
+
+Ans
+Code
+  <form>
+        <input type="button"><br/>
+        <input type="checkbox"><br/>
+        <input type="color"><br/>
+        <input type="date"><br/>
+        <input type="datetime-local"><br/>
+        <input type="email"><br/>
+        <input type="file"><br/>
+        <input type="hidden"><br/>
+        <input type="image"><br/>
+        <input type="month"><br/>
+        <input type="number"><br/>
+        <input type="password"><br/>
+        <input type="radio"><br/>
+        <input type="range"><br/>
+        <input type="reset"><br/>
+        <input type="search"><br/>
+        <input type="submit"><br/>
+        <input type="tel"><br/>
+        <input type="text"><br/>
+        <input type="time"><br/>
+        <input type="url"><br/>
+        <input type="week">
+
+    </form>
